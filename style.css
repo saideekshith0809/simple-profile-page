@@ -29,5 +29,10 @@ body {
   max-width: 800px;
   margin: auto;
 }
+footer {
+  margin-top: 40px;
+  text-align: center;
+  color: gray;
+}
 
 
