@@ -34,5 +34,8 @@ footer {
   text-align: center;
   color: gray;
 }
+li {
+  margin-bottom: 6px;
+}
 
 
