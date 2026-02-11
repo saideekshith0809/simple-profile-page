@@ -37,5 +37,9 @@ footer {
 li {
   margin-bottom: 6px;
 }
-
+footer {
+  margin-top: 40px;
+  text-align: center;
+  color: gray;
+}
 
