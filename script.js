@@ -11,3 +11,7 @@ function login() {
     msg.style.color = "red";
   }
 }
+function toggleLoginPass() {
+  const passField = document.getElementById("loginPass");
+  passField.type = (passField.type === "password") ? "text" : "password";
+}
