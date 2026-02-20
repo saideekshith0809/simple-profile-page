@@ -15,3 +15,9 @@ function toggleLoginPass() {
   const passField = document.getElementById("loginPass");
   passField.type = (passField.type === "password") ? "text" : "password";
 }
+function logout() {
+  document.getElementById("loginUser").value = "";
+  document.getElementById("loginPass").value = "";
+  document.getElementById("loginMsg").textContent = "Logged out successfully.";
+  document.getElementById("loginMsg").style.color = "blue";
+}
