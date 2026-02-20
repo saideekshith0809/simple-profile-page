@@ -66,4 +66,12 @@ input {
 button {
   padding: 6px 10px;
 }
+#loginMsg {
+  margin-top: 10px;
+  font-weight: bold;
+}
 
+button {
+  margin-top: 5px;
+  cursor: pointer;
+}
